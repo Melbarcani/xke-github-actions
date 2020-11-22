@@ -28,4 +28,4 @@ jobs:
     - run: npm test
     - run: npm run build
     - name: dockerName
-      run: docker build -t melbarcani/nginx:latest .
+      run: docker build -t melbarcani/nginx:8.x .
