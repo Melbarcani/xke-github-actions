@@ -28,4 +28,4 @@ jobs:
     - run: npm test
     - run: npm run build
     - name: dockerName
-      run: docker build -t melbarcani<iciOnMetLeNomDeLimageQuonVeut>:<iciOnMetLaVersion> .
+      run: docker build -t melbarcani/iciOnMetLeNomDeLimageQuonVeut:iciOnMetLaVersion .
